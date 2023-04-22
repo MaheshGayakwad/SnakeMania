@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, #00ae54, #019e4b, #018e42, #017e39, #006f31);
+}
+
+
+.gameName{
+
+    position: absolute;
+    left: 5px;
+    top: 36px;
+    height: 30%;
+    width: 22%;
+
+}
+
+img{
+
+    height: 45%;
+    width: 30%;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 1rem;
+    
+
+}
+
+#scoreCount{
+   
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+
+#highCount{
+
+
+    position: absolute;
+    right: 43px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+
+
+
+
+#board{
+
+    height: 90vmin;
+    width: 92vmin;
+    margin-top: 0px;
+    background: linear-gradient(rgb(189, 255, 169),rgb(243, 243, 243));
+    border: solid #000;
+    display: grid;
+    grid-template-rows: repeat(18 , 1fr);
+    grid-template-columns: repeat(18 , 1fr) ;
+}
+
+
+.head{
+    background: linear-gradient(#379237 , #007209);
+    border-radius: 50%;
+   height: 2rem;
+   transform: scale(1.2);
+   border: 1.3px solid rgb(0, 54, 4);
+}
+
+.snake{
+   background: linear-gradient(	#7be382 , #019267);
+   border-radius: 50%;
+   border: 1px solid rgb(0, 54, 4);
+
+    
+
+}
+
+
+
+
+.food{
+
+border-radius: 30%;
+border-radius: 1px solid #ffb80e;
+background: linear-gradient(#ff611d , #ffb80e);
+
+
+}
