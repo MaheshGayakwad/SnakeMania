@@ -21,7 +21,6 @@ let snakeArr = [
 food = {x: 6, y: 7};
 
 
-alert("Press a key to start the game")
 
 
 //game functions
@@ -79,7 +78,9 @@ function gameEngine(){
          gameSound.pause();
        
 
-        // alert("GAME OVER!!!")
+         alert("GAME OVER!!!")
+        
+        
          snakeDir = {x:0,y:0};
       
       
@@ -169,11 +170,13 @@ function gameEngine(){
 
 //Window functions main logic
 
-
+alert("Press a key to start the game")
 
 window.requestAnimationFrame(main);
 
 window.addEventListener('keydown' , e=>{
+
+
 
     snakeDir = {x:0,y:1};
 
