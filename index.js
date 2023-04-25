@@ -21,6 +21,8 @@ let snakeArr = [
 food = {x: 6, y: 7};
 
 
+alert("Press a key to start the game")
+
 
 //game functions
 
@@ -167,7 +169,7 @@ function gameEngine(){
 
 //Window functions main logic
 
-alert("Press OK and then any key to start");
+
 
 window.requestAnimationFrame(main);
 
